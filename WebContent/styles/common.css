@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+/* CSS Document */ 
+
+body { 
+    font: bold 15px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+    color: #4f6b72; 
+    background: #E6EAE9; 
+} 
+iframe{
+     border:0 ;
+     vspace:0 ;
+     hspace:0 ;
+     marginwidth:0 ;
+     marginheight:0 ;
+     framespacing:0 ;
+     frameborder:0;
+}
+a { 
+    color:#4f6b72; 
+    text-decoration:none;
+} 
+a:visited{color:#4f6b72} 
+
+a:active{color:#F064D4} /*激活时（链接获得焦点时）链接的颜色*/
+
+a:hover {color:#F064D4} 
+
+#mytable { 
+    width: 700px; 
+    padding: 0; 
+    margin: 0; 
+} 
+
+ 
+
+td { 
+    color: #4f6b72; 
+    border-right: 1px solid #C1DAD7; 
+    border-bottom: 1px solid #C1DAD7; 
+    border-top: 1px solid #C1DAD7; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    text-align: left; 
+    padding: 6px 6px 6px 12px; 
+    background: #CAE8EA no-repeat; 
+} 
+
+.nobg { 
+    border-top: 0; 
+    border-left: 0; 
+    border-right: 1px solid #C1DAD7; 
+    background: none; 
+} 
+
+th { 
+    border-right: 1px solid #C1DAD7; 
+    border-bottom: 1px solid #C1DAD7; 
+    background: #fff; 
+    font-size:11px; 
+    padding: 6px 6px 6px 12px; 
+    color: #4f6b72; 
+} 
+
+
+td.alt { 
+    background:#557AFF; 
+    color: #000000; font-size:21px; 
+} 
+
+.spec { 
+    border-left: 1px solid #C1DAD7; 
+    border-top: 0; 
+    background: #fff url(images/bullet1.gif) no-repeat; 
+    font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+} 
+
+.specalt { 
+    border-left: 1px solid #C1DAD7; 
+    border-top: 0; 
+    background: #f5fafa url(images/bullet2.gif) no-repeat; 
+    font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+    color: #797268; 
+} 
+
+ 
+div ul{
+    display:none;
+    list-style-type:none;
+     }
+ 
+.btn {  display: block; 
+    position: relative; 
+    background: #aaa; 
+    padding: 0 5px 0 5px; 
+    float: left; 
+    color: #fff; 
+    text-decoration: none; 
+    cursor: pointer; 
+    width:100px;
+    }
+.btn * { font-style: normal; 
+        background-image: url(images/btn2.png); 
+        background-repeat: no-repeat; 
+        display: block; 
+        position: relative;
+        width:100px; 
+        }
+.btn.blue { background: #2ae; 
+            border-radius: 8px;
+            padding:5px;
+            margin:5px;
+            width:100px;
+}
+ 
+ select{
+ position:relative;
+ font-size:17px;
+ width:183px;
+ line-height:14px;
+ border:0px;
+ color:#4F6B72;
+}  
+.myInput{border-radius: 5px;width:200px; height:25px;}
